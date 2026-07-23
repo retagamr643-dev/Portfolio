@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(125, 68, 109);
+}
+
+h1 {
+    color: rgb(41, 1, 35);
+    text-align: center;
+    font-size: 50px;
+    ;
+}
+
+
+h3 {
+    color: rgb(86, 9, 43);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: rgb(60, 0, 69);
+    color: rgb(242, 157, 192);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(46, 2, 46);
+}
+
+a {
+    color: rgb(174, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 242, 255);
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 12px;
+}
+
+button {
+    margin-bottom: 16px;
+}
+
+form {
+    margin-bottom: 24px;
+}
+
+#hero {
+    background-color: #ac829c;
+    padding: 32px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: rgb(255, 213, 0);
+    color: rgb(203, 93, 15);
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-family: 14px;
+
+}
+
+
+.highlight {
+    color: rgb(35, 3, 50);
+    font-weight: bold;
+}
+
+.card {
+    background-color: #cd9cbb;
+    padding: 24px;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 30%;
+}
+
+.card img {
+    width: 250PX;
+    border-radius: 12px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input {
+    display: block;
+    width: 88%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #4fd1db;
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(255, 224, 224);
+    background-color: rgb(201, 255, 253);
+}
+
+#hero img {
+    width: 260px;
+    border-radius: 16px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.navbar {
+    background-color: rgb(247, 227, 202);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: rgb(196, 167, 151)
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: rgb(20, 99, 99);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: rgb(8, 53, 53);
+}
+
+.banner {
+    position: relative;
+    margin-top: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-text {
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+}
